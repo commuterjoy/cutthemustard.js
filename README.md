@@ -1,4 +1,3 @@
-
 See here - [Cutting the mustard - Future-friendly browser support](https://speakerdeck.com/tmaslen/cutting-the-mustard-future-friendly-browser-support)
 
 There has been an association between the heat and piquancy of mustard and the zest and energy of people's behaviour. This dates back to at least
@@ -7,9 +6,13 @@ There has been an association between the heat and piquancy of mustard and the z
 proposed explanations, the derivation of 'cutting the mustard' as an alternative way of saying 'exhibiting one's high standards' is by far the most
 likely.
 
+## Usage
+
+Via AMD, for example 
+
 ```
-require('mustard').then(function (m) {
-    console.log(m);
+require('mustard').then(function (isModernBrowser) {
+    console.log(isModernBrowser);
     })
 ```
 
