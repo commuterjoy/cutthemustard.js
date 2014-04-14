@@ -15,5 +15,3 @@ require('mustard').then(function (isModernBrowser) {
     console.log(isModernBrowser);
     })
 ```
-
-
